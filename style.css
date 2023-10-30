@@ -1,0 +1,52 @@
+html {
+    background-color: rgba(122, 191, 191, .5);
+
+}
+
+body {
+    width: 414px;
+    background-color: #F2F2F2;
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "header"
+        "main"
+        "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    body {
+        width: 768px;
+    }
+}
+
+
+
+
+@media screen and (min-width:1280px) {
+    body {
+        width: 1280px;
+    }
+}
