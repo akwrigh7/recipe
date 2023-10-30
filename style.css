@@ -30,10 +30,34 @@ footer {
     grid-area: footer;
 }
 
+h1 {
+    font-size: 40px;
+}
 
+h2 {
+    font-size: 30px;
+}
 
+h3 {
+    font-size: 25px;
+}
 
+nav a, nav span, menu li, #social li, footer {
+    font-size: 20px;
+}
 
+h1, h2, h3, nav a, nav span, menu li, #social li, footer {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p, dd, li, nav, input, dt {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+dt {
+    font-weight: bold;
+}
 
 
 @media screen and (min-width:768px) {
