@@ -68,7 +68,9 @@ nav h2 {
     visibility: hidden;
 }
 
-
+#sideDishes {
+    background-color: #7ABFBF;
+}
 
 
 @media screen and (min-width:768px) {
