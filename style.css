@@ -70,6 +70,10 @@ nav h2 {
     position: absolute;
 }
 
+nav a {
+    color: black;
+}
+
 #sideDishes {
     background-color: #7ABFBF;
 }
@@ -84,7 +88,27 @@ ul, menu {
 
 menu {
     display: flex;
+}
+
+menu svg {
+    display: block;
+    position: relative;
+    left: -3px;
+}
+
+menu li {
+    margin-right: 60px;
     
+}
+
+#jumpTo {
+    position: relative;
+    width: 100px;
+}
+
+#jumpText {
+    position: relative;
+    left: -30px
 }
 
 menu a {
@@ -92,16 +116,9 @@ menu a {
 
 }
 
-nav a {
-    color: black;
-}
-
-
-
 #hamburger {
     position: relative;
     display: none;
-    
 }
 
 label {
@@ -135,6 +152,7 @@ label {
 
 #tacos {
     width: 414px;
+    
 }
 
 nav {
@@ -145,8 +163,8 @@ nav {
 }
 
 nav ul {
-    border-bottom: 1px solid transparent;
-    box-shadow: 0px 2px 4px black;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 nav label {
