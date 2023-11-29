@@ -70,7 +70,7 @@ nav h2 {
     position: absolute;
 }
 
-nav a {
+a {
     color: black;
 }
 
@@ -264,14 +264,24 @@ form svg {
 }
 
 #sideDishes img {
-    width: 30%;
+    width: 20%;
     float: left;
     margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 0;
 
 }
 
 #sideDishes h3 {
-    
+    position: relative;
+    margin-left: 115px;
+    top: 50px;
+}
+
+#sideDishes p, #sideDishes svg {
+    position: relative;
+    top: 35px;
+    margin: 0
 }
 
 .rating {
@@ -279,11 +289,23 @@ form svg {
     
 }
 
-#sideDishes {
-    
-    
+#sideDishes svg {
+    margin-right: 10px
 }
 
+#sideDishes section {
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+}
+
+footer {
+    grid-template-areas: ;
+}
+
+footer h2 {
+    
+}
 
 
 @media screen and (min-width:768px) {
