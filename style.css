@@ -44,11 +44,11 @@ h3 {
     font-size: 25px;
 }
 
-nav a, nav span, menu li, #social li, footer {
+nav a, nav span, menu li, #social li, footer a, footer p {
     font-size: 20px;
 }
 
-h1, h2, h3, nav a, nav span, menu li, #social li, footer {
+h1, h2, h3, nav a, nav span, menu li, #social li, footer a, footer p {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -300,11 +300,55 @@ form svg {
 }
 
 footer {
-    grid-template-areas: ;
+    width: 414px;
+    
+}
+
+footer a {
+    color:#EB5428;
+}
+
+footer img {
+    width: 200px;
+    position: relative;
+    left: 105px;
+    grid-area: picture;
+    margin-bottom: 30px;
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 footer h2 {
+    position: absolute;
+    visibility: hidden;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.text {
+    position: relative;
+    right: 10px;
+}
+
+#tikTok {
+    position: relative;
+    top: 23px;
+    right: 50px;
+}
+
+#copyright {
+    display: grid;
+    grid-template-areas: 
+    "picture";
     
+
 }
 
 
