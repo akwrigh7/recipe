@@ -33,6 +33,7 @@ footer {
 
 h1 {
     font-size: 40px;
+    margin-left: 125px
 }
 
 h2 {
@@ -86,20 +87,46 @@ menu {
     
 }
 
-menu li {
+menu a {
+    color:#EB5428;
+
+}
+
+nav a {
+    color: black;
+}
+
+#hamburger {
     position: relative;
+    display: none;
     
-    
-    
+}
+
+label {
+    left: 35px;
+    top: 10px;
 }
 
 #logo {
     position: absolute;
     background-color: #EB5428;
     margin-left: 70px;
-    top: 0px;
+    top: 0;
     padding-left: 70px;
     padding-right: 70px;
+    height: 86px
+}
+
+#logo svg {
+    margin-top: 10px;
+}
+
+#signIn {
+    position: absolute;
+    margin-left: 300px;
+    top: 8px;
+    display: block;
+    width: 50px
 }
 
 #tacos {
@@ -110,6 +137,11 @@ nav {
     top: 0;
     z-index: 1;
     width: 414px;
+    
+}
+
+nav ul {
+    border-bottom: 1px solid black;
 }
 
 nav label {
@@ -138,7 +170,7 @@ nav ul {
 }
 
 nav input:checked ~ ul {
-    max-height: 700px;
+    max-height: 800px;
 }
 
 @media screen and (min-width:768px) {
