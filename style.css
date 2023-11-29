@@ -282,7 +282,7 @@ form svg {
 #sideDishes p, #sideDishes svg {
     position: relative;
     top: 35px;
-    margin: 0
+    margin: 0;
 }
 
 .rating {
@@ -335,7 +335,7 @@ footer p {
 
 .text {
     position: relative;
-    right: 10px;
+    margin-right: 10px;
 }
 
 #tikTok {
@@ -472,11 +472,6 @@ footer p {
         justify-content: center;
     }
 
-    #directions, #ingredients {
-        
-
-    }
-
     #ingredients {
         margin: 0 auto;
         box-sizing: border-box;
@@ -491,19 +486,58 @@ footer p {
     }
 
     #directions li {
-        margin-bottom: px;
-        line-height: 31px
+        line-height: 31px;
     }
+
+    #sideDishes h2 {
+        margin: 0;
+        margin-left: 250px;
+        position: absolute;
+    }
+
 
     #sideDishes {
         width: 768px;
-        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 280px;
+        padding-bottom: 60px;
     }
+
+    #sideDishes section {
+        top: -10px;
+    }
+
+    #sideDishes h3 {
+        margin-left: 106px;
+    }
+
 
     footer {
         width: 768px;
     }
 
+    #copyright p {
+        margin-left: 150px;
+    }
+
+    #copyright img {
+        margin-top: 60px;
+    }
+
+    #connect {
+        position: absolute;
+        margin-left: 320px;
+        margin-top: 50px;
+    }
+
+    .text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 30px;
+    }
 
 }
 
