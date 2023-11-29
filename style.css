@@ -148,13 +148,6 @@ label {
     width: 50px
 }
 
-
-
-#tacos {
-    width: 414px;
-    
-}
-
 nav {
     top: 0;
     z-index: 1;
@@ -216,6 +209,82 @@ form svg {
     background-color: #EB5428;
     
 }
+
+#tacos h2 {
+    visibility: hidden;
+    position: absolute;
+}
+
+#tacos img {
+    width: 414px;
+    
+}
+
+#tacos p {
+    margin-left: 14px;
+    margin-right: 6px
+}
+
+#tacos {
+    width: 414px;
+    
+}
+
+#details, #ingredients, #directions, #sideDishes{
+    width: 414px;
+}
+
+#details h2, #ingredients h2, #directions h2, #sideDishes h2{
+    text-align: center;
+}
+
+#details dl {
+    display: flex;
+    margin-left: 14px;
+
+}
+
+#details dd {
+    position: relative;
+    right: 30px;
+}
+
+#ingredients li {
+    list-style-type: square;
+    margin-bottom: 15px
+}
+
+#directions li {
+    margin-bottom: 15px;
+    margin-right: 6px;
+}
+
+#sideDishes h2 {
+    padding-top: 10px;
+}
+
+#sideDishes img {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+
+}
+
+#sideDishes h3 {
+    
+}
+
+.rating {
+    font-weight: bold;
+    
+}
+
+#sideDishes {
+    
+    
+}
+
+
 
 @media screen and (min-width:768px) {
     body {
