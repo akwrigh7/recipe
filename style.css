@@ -96,6 +96,8 @@ nav a {
     color: black;
 }
 
+
+
 #hamburger {
     position: relative;
     display: none;
@@ -129,6 +131,8 @@ label {
     width: 50px
 }
 
+
+
 #tacos {
     width: 414px;
 }
@@ -141,7 +145,8 @@ nav {
 }
 
 nav ul {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0px 2px 4px black;
 }
 
 nav label {
@@ -171,6 +176,27 @@ nav ul {
 
 nav input:checked ~ ul {
     max-height: 800px;
+}
+
+form {
+    color: #EB5428;
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+
+form input {
+    height: 40px;
+    border: 3px solid #EB5428;
+    position: relative;
+    bottom: 14px;
+    left: 4px;
+    width: 250px
+}
+
+form svg {
+    background-color: #EB5428;
+    
 }
 
 @media screen and (min-width:768px) {
