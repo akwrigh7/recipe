@@ -21,6 +21,7 @@ header {
 
 nav {
     grid-area: nav;
+    background-color: white;
 }
 
 main {
@@ -358,13 +359,17 @@ footer p {
     }
 
     nav {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
         width: 768px;
+        height: 200px
         
     }
 
     h1 {
-        margin-top: 130px
+        
+        margin-left: 15px;
+        
     }
 
     #logo {
@@ -427,16 +432,12 @@ footer p {
         display: inline;
     }
 
-    #tacos img {
-        width: 768px
-    }
-
     menu {
         background-color: rgba(255, 255, 255, .5);
         position: absolute;
-        width: 728px;
+        width: 729px;
         height: 120px;
-        top: 251px;
+        top: 287px;
     }
 
 
@@ -450,7 +451,58 @@ footer p {
         margin-top: 30px
     }
 
+    #tacos {
+        width: 768px;
+        
+    }
     
+    #tacos img {
+        width: 768px
+    }
+
+    #medium {
+        display: flex;
+    }
+
+    #details {
+        width: 768px;
+    }
+
+    #details dl {
+        justify-content: center;
+    }
+
+    #directions, #ingredients {
+        
+
+    }
+
+    #ingredients {
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 25%;
+    }
+
+    #directions {
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 75%;
+
+    }
+
+    #directions li {
+        margin-bottom: px;
+        line-height: 31px
+    }
+
+    #sideDishes {
+        width: 768px;
+        
+    }
+
+    footer {
+        width: 768px;
+    }
 
 
 }
