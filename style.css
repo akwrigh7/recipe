@@ -356,6 +356,52 @@ footer p {
     body {
         width: 768px;
     }
+
+    nav {
+        
+    }
+
+    #logo {
+        padding-left: 10px;
+        padding-right: 10px;
+        left: 3px
+    }
+
+    #signIn {
+        margin-left: 660px;
+    }
+
+
+    form {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 370px
+    }
+
+    label {
+        position: absolute;
+        left: 100000px;
+    }
+    
+
+    nav ul {
+        overflow: visible;
+        display: flex;
+        border-bottom: none;
+        width: 768px;
+    }
+
+    
+    nav img {
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        
+    }
+
+    nav ul li a {
+       color:#EB5428;
+    }   
 }
 
 
