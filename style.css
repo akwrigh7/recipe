@@ -586,8 +586,32 @@ footer p {
         margin-top: 100px;
     }
 
-    
+    menu {
+        display: inline;
+        height: 722px;
+        width: 110px;
+        border: 2px solid #EB5428;
+        background-color: white;
+    }
 
+    #tacos img {
+        margin-left: 152px;
+        margin-top: 2px;
+        width: 650px;
+        height: 725px;
+    }
+
+    #tacos p {
+        
+        
+        
+        
+    }
+
+    #tacos {
+        display: flex;
+        width: 1280px;
+    }
 
 
 
