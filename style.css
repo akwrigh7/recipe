@@ -539,9 +539,6 @@ footer p {
         margin-right: 30px;
     }
 
-    #navItems {
-        display: flex;
-    }
 
 }
 
@@ -567,9 +564,10 @@ footer p {
         color: black;
     }
 
-    #navItems {
-        
-        margin-left: 250px;
+    .items {
+        position: relative;
+        left: 220px;
+        margin-left: 10px;
         margin-top: -80px;
     }
 
@@ -673,7 +671,7 @@ footer p {
         position: relative;
         top: 10px;
         left: 20px;
-        width: 
+        margin-bottom: 10px;
     }
 
     #sideDishes h2 {
@@ -681,6 +679,12 @@ footer p {
         
     }
     
+    #sideDishes h3 {
+        top: 315px;
+        right: 87px;
+    }
+
+
     #sideDishes svg {
         left: 70px;
         
