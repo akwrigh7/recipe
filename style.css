@@ -597,19 +597,26 @@ footer p {
     #tacos img {
         margin-left: 152px;
         margin-top: 2px;
-        width: 650px;
+        width: 480px;
         height: 725px;
     }
 
     #tacos p {
-        
-        
-        
-        
+        line-height: 40px;
+        margin-left: 5px;
+    }
+
+
+    #largeP {
+        position: absolute;
+        width: 630px;
+        padding-left: 640px;
+        padding-top: 150px
     }
 
     #tacos {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
         width: 1280px;
     }
 
