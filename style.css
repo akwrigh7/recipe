@@ -559,7 +559,12 @@ footer p {
     }
 
     #signIn {
-        margin-left: 1100px
+        margin-left: 1150px;
+        margin-top: 20px;
+    }
+
+    #signIn a {
+        color: black;
     }
 
     #navItems {
@@ -620,8 +625,35 @@ footer p {
         width: 1280px;
     }
 
+    #details {
+        color:#7ABFBF;
+        background-color: black;
+        margin: 0 auto;
+        width: 1280px;
+        height: 100px;
+        display: flex;
+    }
 
+    #details h2 {
+        position: relative;
+        bottom: 20px;
+        left: 610px;
+    }
 
+    #details dl {
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 90px;
+        top: 25px;
+    }
+    
+    #details dt {
+        position: relative;
+        right: 10px;
+    }
 
 
 
