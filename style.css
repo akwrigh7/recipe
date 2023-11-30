@@ -508,8 +508,27 @@ footer p {
         top: -10px;
     }
 
+    #sideDishes img {
+        width: 100px;
+        margin-left: 0;
+    }
+
+    #sideDishes p {
+        margin-top: 20px;
+        top: 45px;
+        right: 10px;
+        
+    }
+
+    #sideDishes svg {
+        position: relative;
+        top: 25px;
+        left: 50px;
+    }
+
     #sideDishes h3 {
-        margin-left: 106px;
+        margin-left: 110px;
+        top: 60px;
     }
 
 
@@ -670,8 +689,6 @@ footer p {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         height: 410px;
     }
-
-    
 
     #sideDishes p {
         position: relative;
