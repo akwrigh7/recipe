@@ -539,6 +539,10 @@ footer p {
         margin-right: 30px;
     }
 
+    #navItems {
+        display: flex;
+    }
+
 }
 
 
@@ -548,4 +552,47 @@ footer p {
     body {
         width: 1280px;
     }
+
+    nav {
+        width: 1280px;
+        height: 125px;
+    }
+
+    #signIn {
+        margin-left: 1100px
+    }
+
+    #navItems {
+        
+        margin-left: 250px;
+        margin-top: -80px;
+    }
+
+    #logo {
+        padding: 20px 30px;
+    }
+
+    #searchBar {
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+
+    form a {
+        margin-left: -1px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    
+
+
+
+
+
+
+
+
 }
