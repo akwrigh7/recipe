@@ -648,6 +648,7 @@ footer p {
         align-items: center;
         margin-right: 90px;
         top: 25px;
+        left: 30px;
     }
     
     #details dt {
@@ -655,7 +656,50 @@ footer p {
         right: 10px;
     }
 
+    #ingredients h2, #directions h2 {
+        margin-top: 10px;
+    }
 
+    #sideDishes {
+        width: 1280px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 370px;
+    }
 
+    
+
+    #sideDishes p {
+        position: relative;
+        top: 10px;
+        left: 20px;
+        width: 
+    }
+
+    #sideDishes h2 {
+        margin-left: 500px;
+        
+    }
+    
+    #sideDishes svg {
+        left: 70px;
+        
+    }
+
+    #sideDishes img {
+        width: 250px;
+    }
+
+    #sideDishes section {
+        width: 220px;
+        margin: 0 auto;
+        right: 25px;
+    }
+
+    #rice img {
+        
+        
+        
+    }
 
 }
