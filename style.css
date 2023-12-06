@@ -109,7 +109,7 @@ menu li {
 
 #jumpText {
     position: relative;
-    left: -30px
+    left: -30px;
 }
 
 menu a {
@@ -200,7 +200,7 @@ form input {
     position: relative;
     bottom: 14px;
     left: 4px;
-    width: 250px
+    width: 250px;
 }
 
 form svg {
@@ -359,7 +359,7 @@ footer p {
         border-bottom: 1px solid #ccc;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
         width: 768px;
-        height: 200px
+        height: 200px;
     }
 
     h1 {
@@ -369,7 +369,7 @@ footer p {
     #logo {
         padding-left: 10px;
         padding-right: 10px;
-        margin-left: -40px
+        margin-left: -40px;
     }
 
     #signIn {
@@ -441,7 +441,7 @@ footer p {
     menu li {
         margin-right: 150px;
         margin-left: 15px;
-        margin-top: 30px
+        margin-top: 30px;
     }
 
     #tacos {
@@ -449,7 +449,7 @@ footer p {
     }
     
     #tacos img {
-        width: 768px
+        width: 768px;
     }
 
     #medium {
